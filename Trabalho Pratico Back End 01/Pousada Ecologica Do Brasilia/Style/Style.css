@@ -1,0 +1,13 @@
+header{
+    background-color: black;
+    color: white;
+}
+
+nav , footer {
+    background-color: #000942;
+    color: white;
+}
+
+a{
+    color: white;
+}
