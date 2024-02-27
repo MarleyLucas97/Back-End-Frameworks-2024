@@ -1,9 +1,9 @@
-header{
+.frase_topo {
     background-color: black;
     color: white;
 }
 
-nav , footer {
+.sessao_superior_header {
     background-color: #000942;
     color: white;
 }
