@@ -3,27 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="../Pousada Ecologica Do Brasilia/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="../Pousada Ecologica Do Brasilia/css/style.css">
     <title>Home Page</title>
 </head>
 
 <body>
+
     <header>
         
-        <div class="container-fluid bg-dark text-white text-center">
-            <p>Descubra nosso cantinho!</p>
+        <div class="frase-topo">
+            <a href="">Descubra o nosso cantinho!</a>
         </div>
 
-        <div class="row container-fluid bg-primary p-5">
-            <div class="col container btn btn-dark">
-                <a href="">Dog</a>
+        <div class="container-header">
+
+            <div class="container-header-conteudo-esquerda">
+                <button id="botao-menu">Menu</button>
+                <nav id="navbar-secundaria">
+                    <ul>
+                        <li>
+                            <button>
+                                <a href="">Reserva</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a href="">Cantina</a>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <a href="">Contato</a>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="col container btn btn-dark">
-                <a href="">Cat</a>
+
+            <div class="container-header-conteudo-centro">
+                <img class="icone-principal" src="../Pousada Ecologica Do Brasilia/icon/Icon.png" alt="Pousada Ecologica do Brasilia">
             </div>
+
+            <div class="container-header-conteudo-direita">
+                <button id="reserva">
+                    <a href="">RESERVA</a>
+                </button>
+            </div>
+
         </div>
+
     </header>
 
     <div class="row container-fluid bg-light p-3">
@@ -78,6 +106,7 @@
         <p>Endereco</p>
     </footer>
 
-    <script src="../Pousada Ecologica Do Brasilia/js/bootstrap.min.js"></script>
+    <script src="../Pousada Ecologica Do Brasilia/js/script.js"></script>
+
 </body>
 </html>
