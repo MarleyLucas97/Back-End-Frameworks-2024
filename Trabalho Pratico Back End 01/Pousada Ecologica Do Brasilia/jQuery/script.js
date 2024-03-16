@@ -1,5 +1,4 @@
-$('nav').ready(function(){
-    $('#b1').click(function() {
-        $('#nav').slideToggle('slow')    
-    });
+//FUNCAO SLIDE TOGGLE
+$('#botao-menu').click(function(){
+    $('#nav').slideToggle()
 });
